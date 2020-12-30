@@ -6,10 +6,10 @@ defmodule UriOnlineJudge.Problem1040 do
   end
 
   defp grades_sum(grades) do
-      grades
-      |> String.trim_trailing()
-      |> String.split(" ")
-      |> Enum.map(&String.to_float()/1)
-      |> Enum.sum()
+    grades
+    |> String.trim_trailing()
+    |> String.split(" ")
+    |> Enum.map(&String.to_float/1)
+    |> Enum.sum()
   end
 end

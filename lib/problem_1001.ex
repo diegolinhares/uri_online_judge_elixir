@@ -5,7 +5,7 @@ defmodule UriOnlineJudge.Problem1001 do
 
     sum = Enum.sum([a, b])
 
-    IO.inspect("X = #{sum}")
+    IO.puts("X = #{sum}")
   end
 
   defp type_a_number do
